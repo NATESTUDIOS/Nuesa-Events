@@ -1,0 +1,442 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(135deg, #010301, #07010b);
+  color: #fafafa;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-Serif;
+  /*  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+  url(/darkimage2.jpg);
+  background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;*/
+}
+
+.topbox {
+  width: 100%;
+  background-color: linear-gradient(rgb(188, 122, 35), rgba(234, 44, 44));
+  display: grid;
+  position: relative;
+  align-items: center;
+
+}
+
+.bckimg {
+  width: 100%;
+  height: 500px;
+  max-width: 100%;
+  grid-area: 1/1;
+  margin: 0;
+  background-color: #010301;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+
+.shadowbox {
+  max-width: 100%;
+  grid-area: 1/1;
+  height: 500px;
+  background-color: #010301;
+  opacity: 90%;
+  z-index: 1;
+
+}
+
+.itemsbox {
+  width: 100%;
+  height: 500px;
+  max-width: 100%;
+  grid-area: 1/1;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 2;
+}
+
+.logo {
+  height: 120px;
+  width: 120px;
+  object-fit: contain;
+  justify-self: center;
+}
+
+.linebox {
+  display: flex;
+  align-items: center;
+}
+
+.line1,
+.line2 {
+  height: 2px;
+  margin-left: 13px;
+  margin-right: 13px;
+  flex-grow: 1;
+  background-color: #fafafa;
+}
+
+.mainheading {
+  padding: 0;
+  margin: 0;
+  color: #ffbf75;
+}
+
+.introheading,
+.introdescription {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 13px;
+}
+
+.introheading {
+  font-size: 15px;
+}
+
+.introregisterbutton {
+  width: 70%;
+  margin: 8px;
+  margin-top: 50px;
+  padding: 10PX;
+  font-size: 17px;
+  font-weight: 700;
+  border-radius: 30px;
+  background-color: #a1641f;
+  color: #eeeeee;
+  border: 1px solid #ad630a;
+
+}
+
+.box2 {
+  max-width: 100%;
+  margin-top: 50px;
+  padding: 50px;
+  text-align: center;
+  border-top: 1px solid #424242;
+  border-bottom: 1px solid #424242;
+
+}
+
+.year {
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  font-family: Times, serif;
+}
+
+.year-description {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+.activitybox {
+  display: grid;
+  padding: 15px;
+  margin-top: 30px;
+  text-align: center;
+
+
+}
+
+.activity-grid {
+  width: 97%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  padding: 8px;
+  text-align: center;
+}
+.activity-card{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 300px;
+}
+.activity-image {
+  align-items: center;
+  object-fit: cover;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 2px solid #424242;
+}
+
+#ai1 {
+  border-top-left-radius: 30px;
+}
+
+#ai2 {
+  border-top-right-radius: 30px;
+}
+
+#ai3 {
+  border-bottom-left-radius: 30px;
+}
+
+#ai4 {
+  border-bottom-right-radius: 30px;
+}
+
+.activity-heading {
+  padding: 0;
+  margin: 0;
+  padding-left: 15px;
+}
+
+.activity-description {
+  padding: 0;
+  margin: 0;
+  padding-left: 15px;
+}
+
+
+
+
+
+
+
+.box3 {
+  max-width: 100%;
+  width: 93%;
+  margin: 8px;
+  padding: 10px;
+  margin-top: 40px;
+  background-color: #090909;
+  border: 1px solid #424242;
+  border-radius: 16px;
+  justify-self: center;
+  text-align: center;
+}
+
+.event-details-box {
+  display: flex;
+}
+
+.event-details-subbox {
+  flex-grow: 1;
+}
+
+.eventdetails {
+  font-size: 22px;
+}
+
+
+.dateic,
+.timeic,
+.placeic {
+  height: 25px;
+  width: 25px;
+  object-fit: contain;
+  border-radius: 50%;
+  padding: 15px;
+  background-color: #141414;
+}
+
+.detailsdate,
+.detailstime,
+.detailsplace {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+.date,
+.time,
+.place {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 12px;
+}
+
+.box4 {
+  margin-top: 50px;
+  text-align: center;
+  justify-items: center;
+}
+
+.ticketheading {
+  padding: 0;
+  margin: 0;
+}
+
+.ticketdescription {
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.tag {
+  max-width: 350px;
+  padding: 9px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: #424242;
+  border-radius: 30px;
+  font-size: 12px;
+}
+
+.ticketlist {
+  max-width: 97%;
+  margin-top: 30px;
+  padding: 8px;
+  gap: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  align-items: center;
+  scroll-snap-type: x-mandatory;
+}
+
+.ticketcard,
+.sponsorcard {
+
+
+  flex-shrink: 0;
+  flex: 0 0 auto;
+  width: 250px;
+  height: auto;
+  padding: 25px;
+  align-items: center;
+  background-color: #000000;
+  border-radius: 18px;
+  border: 1px solid #424242;
+  text-align: left;
+  scroll-snap-align: start;
+}
+
+.theading {
+  padding: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+}
+
+.tprice {
+  padding: 0;
+  padding-top: 6px;
+  padding-bottom: 0;
+  margin: 0;
+  color: #ffbf75;
+  font-size: 30px;
+  font-weight: 650;
+  font-style: normal;
+}
+
+.tdescription {
+  padding: 0;
+  padding-bottom: 6px;
+  margin: 0;
+  margin-bottom: 70px;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.tdescription2 {
+  padding: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin: 0;
+  font-size: 15px;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.registerbutton {
+  width: 96%;
+  margin: 3px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 700;
+  border-radius: 30px;
+  background-color: #a1641f;
+  color: #eeeeee;
+  border: 1px solid #ad630a;
+}
+
+.sponsorlist {
+  display: flex;
+  padding: 8px;
+  gap: 15px;
+  padding-top: 50px;
+  margin: 0;
+  margin-top: 25px;
+  max-width: 97%;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  scroll-snap-type: x-mandatory;
+}
+
+.sponsorcard {
+  border: 1.5px solid #424242;
+  width: 350px;
+  margin: 12px;
+}
+
+#sponsorcard {
+  border: 1.5px solid #ffbf75;
+}
+
+.populartitle {
+  background-color: #ffbf75;
+  width: 100px;
+  border-radius: 30px;
+  color: #212121;
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 10px;
+  font-family: 'Courier', monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .event-details-box {
+    display: grid;
+    align-items: start;
+  }
+
+  .sponsorlist {
+    width: 97%;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    display: grid;
+    gap: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .sponsorcard {
+    border: 1.5px solid #424242;
+    width: 85%;
+    margin: 8px;
+
+  }
+}
